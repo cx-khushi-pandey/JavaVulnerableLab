@@ -29,7 +29,7 @@ stages:
       displayName: 'remove tar file'
     - task: Checkmarx AST@3
       inputs:
-        CheckmarxService: 'CxOne-Seg'
+        CheckmarxService: 'seg'
         projectName: 'yaml-test'
         branchName: 'main'
         tenantName: 'cx_seg'
