@@ -33,6 +33,6 @@ stages:
       inputs:
         CheckmarxService: 'swarit_creds'
         projectName: '00252150-ADO-CLI-SCAResolver'
-        branchName: 'main'
+        branchName: 'master'
         tenantName: 'cx_seg'
         additionalParams: ''
