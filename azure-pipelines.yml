@@ -32,7 +32,7 @@ stages:
     - task: Checkmarx AST@3
       inputs:
         CheckmarxService: 'swarit_creds'
-        projectName: '00252150-ADO-CLI-SCAResolver'
+        projectName: 'ADO_ScaResolver'
         branchName: 'master'
         tenantName: 'cx_seg'
         additionalParams: ''
